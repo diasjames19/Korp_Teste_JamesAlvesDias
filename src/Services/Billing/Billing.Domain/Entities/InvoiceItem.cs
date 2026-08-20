@@ -49,5 +49,5 @@ public class InvoiceItem
         ProductId = productId;
         Quantity = quantity;
         UnitPrice = unitPrice;
-    } 
+    }
 }
