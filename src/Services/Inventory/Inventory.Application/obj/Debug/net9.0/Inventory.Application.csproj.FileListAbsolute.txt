@@ -1,0 +1,16 @@
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\bin\Debug\net9.0\Inventory.Application.deps.json
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\bin\Debug\net9.0\Inventory.Application.dll
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\bin\Debug\net9.0\Inventory.Application.pdb
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\bin\Debug\net9.0\Inventory.Domain.dll
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\bin\Debug\net9.0\Inventory.Domain.pdb
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\obj\Debug\net9.0\Inventory.Application.csproj.AssemblyReference.cache
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\obj\Debug\net9.0\Inventory.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\obj\Debug\net9.0\Inventory.Application.AssemblyInfoInputs.cache
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\obj\Debug\net9.0\Inventory.Application.AssemblyInfo.cs
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\obj\Debug\net9.0\Inventory.Application.csproj.CoreCompileInputs.cache
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\obj\Debug\net9.0\Inventory.Application.sourcelink.json
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\obj\Debug\net9.0\Inventor.1DAC6D85.Up2Date
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\obj\Debug\net9.0\Inventory.Application.dll
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\obj\Debug\net9.0\refint\Inventory.Application.dll
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\obj\Debug\net9.0\Inventory.Application.pdb
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Inventory\Inventory.Application\obj\Debug\net9.0\ref\Inventory.Application.dll

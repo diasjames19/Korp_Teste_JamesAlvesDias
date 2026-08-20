@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "Billing.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Billing.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Billing.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Billing.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Billing.Domain/Billing.Domain.csproj",
+      "msbuildProject": "../Billing.Domain/Billing.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "Billing.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\James\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\desafio\\Korp_Teste_JamesAlvesDias\\src\\Services\\Billing\\Billing.Domain\\Billing.Domain.csproj": {
+              "projectPath": "E:\\desafio\\Korp_Teste_JamesAlvesDias\\src\\Services\\Billing\\Billing.Domain\\Billing.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "Inventory.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Inventory.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Inventory.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Inventory.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Inventory.Domain/Inventory.Domain.csproj",
+      "msbuildProject": "../Inventory.Domain/Inventory.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "Inventory.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\James\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\desafio\\Korp_Teste_JamesAlvesDias\\src\\Services\\Inventory\\Inventory.Domain\\Inventory.Domain.csproj": {
+              "projectPath": "E:\\desafio\\Korp_Teste_JamesAlvesDias\\src\\Services\\Inventory\\Inventory.Domain\\Inventory.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

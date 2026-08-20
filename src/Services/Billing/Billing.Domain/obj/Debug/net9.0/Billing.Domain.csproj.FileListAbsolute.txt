@@ -1,0 +1,12 @@
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Billing\Billing.Domain\bin\Debug\net9.0\Billing.Domain.deps.json
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Billing\Billing.Domain\bin\Debug\net9.0\Billing.Domain.dll
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Billing\Billing.Domain\bin\Debug\net9.0\Billing.Domain.pdb
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Billing\Billing.Domain\obj\Debug\net9.0\Billing.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Billing\Billing.Domain\obj\Debug\net9.0\Billing.Domain.AssemblyInfoInputs.cache
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Billing\Billing.Domain\obj\Debug\net9.0\Billing.Domain.AssemblyInfo.cs
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Billing\Billing.Domain\obj\Debug\net9.0\Billing.Domain.csproj.CoreCompileInputs.cache
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Billing\Billing.Domain\obj\Debug\net9.0\Billing.Domain.sourcelink.json
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Billing\Billing.Domain\obj\Debug\net9.0\Billing.Domain.dll
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Billing\Billing.Domain\obj\Debug\net9.0\refint\Billing.Domain.dll
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Billing\Billing.Domain\obj\Debug\net9.0\Billing.Domain.pdb
+E:\desafio\Korp_Teste_JamesAlvesDias\src\Services\Billing\Billing.Domain\obj\Debug\net9.0\ref\Billing.Domain.dll
