@@ -17,4 +17,7 @@ public interface IInvoiceRepository
 
     Task SaveChangesAsync(
         CancellationToken cancellationToken);
+    
+    Task<string> GetNextInvoiceNumberAsync(
+        CancellationToken cancellationToken);
 }

@@ -1,5 +1,5 @@
-
 using Inventory.Domain.Exceptions;
+
 namespace Inventory.Domain.Entities;
 
 public class Product
@@ -12,29 +12,36 @@ public class Product
 
     public int StockQuantity { get; private set; }
 
+    public decimal Price { get; private set; }
+
     private Product()
     {
-        // Required by EF Core.
+        Code = string.Empty;
+        Description = string.Empty;
     }
 
     public Product(
         string code,
         string description,
-        int stockQuantity)
+        int stockQuantity,
+        decimal price)
     {
         Id = Guid.NewGuid();
 
         SetCode(code);
         SetDescription(description);
         SetStockQuantity(stockQuantity);
+        SetPrice(price);
     }
 
     public void Update(
         string code,
-        string description)
+        string description,
+        decimal price)
     {
         SetCode(code);
         SetDescription(description);
+        SetPrice(price);
     }
 
     public void AddStock(int quantity)
@@ -51,11 +58,11 @@ public class Product
         if (quantity > StockQuantity)
         {
             throw new InsufficientStockException(
-                    Code,
-                    quantity,
-                    StockQuantity);
+                Code,
+                quantity,
+                StockQuantity);
         }
-
+        
         StockQuantity -= quantity;
     }
 
@@ -95,13 +102,25 @@ public class Product
         StockQuantity = stockQuantity;
     }
 
-    private static void ValidatePositiveQuantity(int quantity)
+    private void SetPrice(decimal price)
+{
+    if (price < 0)
     {
-        if (quantity <= 0)
-        {
-            throw new ArgumentException(
-                "Quantity must be greater than zero.",
-                nameof(quantity));
-        }
+        throw new ArgumentException(
+            "Price cannot be negative.",
+            nameof(price));
     }
+
+    Price = price;
+}
+
+private static void ValidatePositiveQuantity(int quantity)
+{
+    if (quantity <= 0)
+    {
+        throw new ArgumentException(
+            "Quantity must be greater than zero.",
+            nameof(quantity));
+    }
+}
 }

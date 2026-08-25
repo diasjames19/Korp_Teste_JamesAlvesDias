@@ -28,5 +28,9 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
 
         builder.Property(product => product.StockQuantity)
             .IsRequired();
+
+        builder.Property(product => product.Price)
+            .IsRequired()
+            .HasPrecision(18, 2);
     }   
 }

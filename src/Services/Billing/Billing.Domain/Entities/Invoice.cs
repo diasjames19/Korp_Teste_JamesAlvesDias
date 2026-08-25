@@ -1,4 +1,5 @@
 using Billing.Domain.Enums;
+
 namespace Billing.Domain.Entities;
 
 public class Invoice
